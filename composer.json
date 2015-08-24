@@ -1,0 +1,14 @@
+{
+    "name": "ckeditor/ckeditor-composer-installer",
+    "type": "composer-plugin",
+    "license": "GNU",
+    "autoload": {
+        "psr-0": {"Composer": "src/"}
+    },
+    "extra": {
+        "class": "Composer\\TemplateInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    }
+}
